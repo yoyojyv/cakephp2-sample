@@ -410,3 +410,20 @@ public function delete($id) {
 
 </table>
 ```
+
+
+
+### 04. Routes 수정하기
+
+/app/Config/routes.php 파일을 다음과 같이 수정해봅니다.
+
+```
+// Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+Router::connect('/', array('controller' => 'posts', 'action' => 'index'));
+```
+
+
+
+- 다음의 링크들을 참조할 것
+    - http://book.cakephp.org/2.0/en/index.html
+    - http://api.cakephp.org/2.4/
