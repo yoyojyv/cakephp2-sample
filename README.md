@@ -73,7 +73,7 @@ INSERT INTO posts (title,body,created)
 /app/Config/core.php ```Security.salt``` 부분을 수정합니다.
 
 
-- URL Rewriting 부분을 다음의 문서를 참조하여 수정합니다. http://book.cakephp.org/2.0/en/installation/url-rewriting.html
+- URL Rewriting 부분 수정을 원한다면, 다음의 문서를 참조하여 수정합니다. http://book.cakephp.org/2.0/en/installation/url-rewriting.html
 
 
 
